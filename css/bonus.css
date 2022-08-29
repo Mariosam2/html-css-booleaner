@@ -6,7 +6,6 @@
 
 body {
     width: 100vw;
-    height: 100vh;
     margin: 0;
     
 }
@@ -80,53 +79,22 @@ th:first-child, th:nth-child(2) {
 }
 
 
-.images {
-    height: 550px;
-    width: 100%;
-    
-   
-    
-    
-}
-
-.box-image {
-    width: 49.5%;
-    height: 100%;
-    background-repeat: no-repeat;
-    display: inline-block;
-    background-size: cover;
-    background-position: center;
-    
-    
-}
-
-.box-1 {
-  background-image: url('../img/tim-1.jpg');
-  
-  
-}
-
-.box-2 {
-    background-image: url('../img/tim-2.jpg');
-}
-
 .box {
     width: 25%;
-    height: 25%;
-    background-size: contain;
-    background-repeat: no-repeat;
     color:white;
     margin-bottom: 0.5em;
-}
-
-.box-3 {
-    background-image: url('../img/monitor.jpg');
+    position: relative;
     
 }
 
-.box-4 {
-    background-image: url('../img/graph.jpg');
+.box p {
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
 }
+
 
 
 
