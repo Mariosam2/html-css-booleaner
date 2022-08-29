@@ -29,22 +29,22 @@ h1 {
     width: 100%;
     margin: auto;
     padding: 0.5em;
-    border: 15px solid blue;
-    
+    border: 15px solid blue;   
     text-align: center;
-    font-size: 6rem;
-    box-shadow: 15px 15px red;
+    font-size: 5vw;
+    box-shadow: 15px 15px  #d42257;
+}
     
 
-}
+
 
 h2 {
-    font-size: 3rem;
+    font-size: 2vw;
     margin-top: 1em;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.2vw;
 }
 
 .title {
@@ -57,7 +57,32 @@ button {
     padding: 1em;
     margin-top: 1em;
     background-color: blue;
-    box-shadow: 3px 3px red;
+    box-shadow: 3px 3px  #d42257;
     border: none;
     color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 0.5em;
+    border-top: 5px solid lightgrey;
+    font-size: 1.2vw;
+    margin-left: 0.5em;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d42257;
+}
+
+nav ul li:hover{
+    border-top: 5px solid #d42257;
 }
