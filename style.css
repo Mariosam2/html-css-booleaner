@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+header{
+    width: 100%;
+    background-image: url('./img/pattern.png');
+    background-size: 30%;
+    background-repeat: repeat-x;
+    background-color: aqua;
+    
+}
+main {
+    padding: 0.5em;
+}
+
+#logo {
+    width: 20%;
+    height: auto;
+    margin-top: 1.5em;
+}
+
+
+.p-title {
+    color: grey;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.p-title .subtitle, .subtitle {
+    font-size: 12px;
+    margin-top: 0.5em;
+    font-weight: lighter;
+    
+}
+
+
+
+.content,p,ul,table {
+    margin: 1em 0 1em 0;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+thead  tr {
+    background-color: blue;
+    color: white;
+}
+
+tbody tr:first-child, tbody tr:last-child {
+    background-color: aquamarine;
+}
+
+th:first-child, th:nth-child(2) {
+    width: 25%;
+    
+}
+
+
+
+.aqua {
+    color: aqua;
+}
+
+
+.images {
+    height: 500px;
+    width: 100%;
+    
+   
+    
+    
+}
+
+.box-image {
+    width: 49.5%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.box-1 {
+  background-image: url('./img/tim-1.jpg');
+  
+  
+}
+
+.box-2 {
+    background-image: url('./img/tim-2.jpg');
+}
+
+.box {
+    width: 25%;
+    height: 25%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color:white;
+    margin-bottom: 0.5em;
+}
+
+.box-3 {
+    background-image: url('./img/monitor.jpg');
+    
+}
+
+.box-4 {
+    background-image: url('./img/graph.jpg');
+}
+
+
+
