@@ -71,8 +71,9 @@ th:first-child, th:nth-child(2) {
 
 
 
-.aqua {
+.aqua a {
     color: aqua;
+    text-decoration: none;
 }
 
 
